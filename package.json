@@ -1,10 +1,16 @@
 {
-    "devDependencies": {
-        "cz-conventional-changelog": "^3.3.0"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
+  "name": "vue-template",
+  "version": "0.0.0",
+  "scripts": {
+    "release": "release-it",
+    "release:dry": "release-it --dry-run"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
+  }
 }
