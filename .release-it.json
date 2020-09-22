@@ -4,10 +4,10 @@
   },
   "git": {
     "changelog": "npx auto-changelog --stdout --commit-limit false",
-    "requireCleanWorkingDir": true,
+    "requireCleanWorkingDir": false,
     "requireBranch": false,
     "requireUpstream": true,
-    "requireCommits": true,
+    "requireCommits": false,
     "addUntrackedFiles": false,
     "commit": true,
     "commitMessage": "version: Release ${version}",
