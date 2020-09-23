@@ -1,6 +1,6 @@
 {
   "name": "vue-template",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "release": "release-it",
     "release:dry": "release-it --dry-run"
